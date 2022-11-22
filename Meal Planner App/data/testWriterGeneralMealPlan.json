@@ -1,0 +1,25 @@
+{
+    "recipes": [
+        {
+            "name": "Rice",
+            "ingredients": [{
+                "amount": 2,
+                "unit": "tbsp",
+                "name": "Butter"
+            }]
+        },
+        {
+            "name": "Chicken",
+            "ingredients": [{
+                "amount": 2,
+                "unit": "tbsp",
+                "name": "Butter"
+            }]
+        }
+    ],
+    "groceryList": [{
+        "amount": 4,
+        "unit": "tbsp",
+        "name": "Butter"
+    }]
+}
