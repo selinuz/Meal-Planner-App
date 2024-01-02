@@ -23,34 +23,4 @@ make my life easier.
 - As a user, when I select the quit option from the application menu, I want to be reminded to save my meal plan to file and have the option to do so or not.
 
 
-## Phase 4: Task 2: ##
-- Mon Nov 22 12:47:50 PST 2021
-- chicken was added to the ingredients of chicken
-- Mon Nov 22 12:47:50 PST 2021
-- butter was added to the ingredients of chicken
-- Mon Nov 22 12:47:50 PST 2021
-- chicken was added to the recipes
-- Mon Nov 22 12:48:11 PST 2021
-- rice was added to the ingredients of rice
-- Mon Nov 22 12:48:11 PST 2021
-- butter was added to the ingredients of rice
-- Mon Nov 22 12:48:11 PST 2021
-- rice was added to the recipes
-- Mon Nov 22 12:48:35 PST 2021
-- egg was added to the ingredients of omelette
-- Mon Nov 22 12:48:35 PST 2021
-- butter was added to the ingredients of omelette
-- Mon Nov 22 12:48:35 PST 2021
-- omelette was added to the recipes
-- Mon Nov 22 12:48:37 PST 2021
-- rice was deleted from the recipes
-
-## Phase 4: Task 3: ##
-If I had more time, I would work on applying the observer design pattern to my project. The bidirectional associations MealPlanUI-MealPlannerUI and RecipesUI-MealPlannerUI are redundant. If I apply the observer design pattern, I could make the MealPlan extent Observable and notify observers whenever a new recipe is added. And MealPlannerUI will implement the interface Observer and everytime if is notified it will update the appropriate JInternal Frame. The argument passed to notifyObservers could be used as a way to decide which JInternalFrame is going to be updated.
-
-
-
-
-
-
 
